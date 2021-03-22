@@ -6,7 +6,7 @@ Globals:
 
   # Configuration defaults for all Lambda functions
   Function:
-    Runtime: nodejs8.10
+    Runtime: nodejs10.x
     Handler: index.handler
     Timeout: 30 
     Tags:
